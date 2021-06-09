@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+ }
+
+ body
+ {  
+    width: 100%;
+    height: 100%;
+    background-color: rgb(235, 235, 235);
+    font-family: Segoe UI;
+ }
+
+ header
+ {
+    background-color: rgb(49, 48, 48);
+    padding: 10px;
+    padding-bottom: 66px;
+    margin: 20px;
+    margin-bottom: 0px;
+
+ }
+
+ header label h1
+ {
+    font-size: 28px;
+    color: white;
+    padding-left: 32%;
+
+ }
+
+ header label  p
+ {
+    font-size: 12px;
+    color: white;
+    padding-left: 32%;
+
+
+ }
+
+ h1 span
+ {
+    font-size: 28px;
+    color: rgb(15, 15, 194);
+ }
+
+ nav 
+ {
+     padding-top: 40px;
+     margin-bottom: -20px;
+     
+ }
+
+ nav ul
+ {
+    float: left;
+    margin-left: 29.5%;
+    background-color: rgb(27, 87, 250);
+    padding: 12px 196px 12px 0.5px;
+   
+ }
+
+ nav ul li
+ {
+     display: inline-block;
+     text-decoration: none;
+     list-style: none;
+     
+     
+ }
+
+ nav ul li a
+ {
+     color: rgb(249, 249, 253);
+     background-color: none;
+     padding: 19px 18px 14px 18px;
+     margin-left: -5px;
+     font-size: 10px;
+     cursor: pointer;
+     text-decoration: none;    
+ }
+
+a.active
+{
+   background-color: rgb(3, 3, 214);
+   margin-left: 0px;
+}
+ 
+ nav ul li a:hover
+ {
+   background-color:rgb(3, 3, 214);
+   color:rgb(248, 248, 250);
+
+ }
+
+ main
+ {
+    margin: 0% 30% 0% 30.3%;
+    display: grid;
+    grid-template-columns: 420px 200px;
+    grid-template-rows: auto;
+    background-color: white;
+
+ }
+
+ .div1
+ {
+    padding: 15px 10px 20px 15px;
+
+
+ }
+
+ .div1 h4
+ {
+   color: rgb(27, 87, 250);
+   font-size: 17px;
+ }
+
+ .div1 p
+ {
+    font-size: 12px;
+    margin-top: 5px;
+    padding: 2px;
+    line-height: 15px;
+
+ }
+
+ .div1 p a
+ {
+    color: rgb(250, 15, 179);
+ }
+
+ .div1 ul li
+ {
+    font-size: 11px;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-top: 5px;
+ }
+ 
+ .div2
+ {
+   padding: 14px 15px 15px 3px;
+
+ }
+
+ .div2 p
+ {
+   font-size: 12px;
+    margin-top: 10px;
+    padding: 2px;
+    line-height: 15px;
+
+    
+    /* background-color: violet; */
+ }
+
+ .div2 p a
+ {
+    color: rgb(250, 15, 179);
+ }
+
+ .div2 ul li
+ {
+    font-size: 11px;
+    text-decoration: none;
+    margin-left: 0px;
+    list-style-type: none;
+   padding: 1px;
+
+ }
+div h5
+ {
+    font-size: 12px;
+    color: rgb(27, 87, 250);
+    margin-top: 5px;
+ }
+ 
+ .links ul li a
+ {
+   color: rgb(250, 15, 179);
+   list-style-type:none;
+   
+ }
+
+ .div2 h4
+ {
+    padding-top: 10px;
+    font-size: 17px;
+ }
+
+ i
+ {
+    padding-right: 10px;
+    margin-left: 2px;
+    color:rgb(27, 87, 250);
+ }
+
+ .searchbar i
+ {
+    font-size: 17px;
+ }
+
+ .div2 h6
+ {
+    margin-left: 2px;
+ }
+
+ .searchbar input
+ { 
+    font-size: 10px;
+    padding: 3px;
+    margin-right: 8px;
+    margin-top: 12px;
+
+ }
+
+ .search-btn
+ {
+    margin-right: 20px;
+    width: 5px;
+    height: 5px;
+    margin-bottom: 8px;
+    cursor: pointer;
+ }
+ 
+ footer
+ {
+    background-color: rgb(27, 87, 250);
+    margin: 0% 30% 0% 30.3%;
+    padding:18px;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    word-spacing: 2px;
+ }
